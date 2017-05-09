@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1 Make a Wish
+    div.formStyling
+        form(action='/bulletinboard', method='post')
+            div.input-group.input-group-lg
+                label(for='title') title
+                input.form-control(name='title', autofocus)
+            div.input-group.input-group-lg
+                label(for='body') body
+                input.form-control(placeholder='I wish...', name='body', autofocus)
+            div.submitButton
+                input.btn.btn-primary.btn-md(type='submit', value='Make Your Wish')

@@ -1,0 +1,39 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.floatThis {
+  float: left;
+}
+.spaceNeeded {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.blockThis {
+  box-sizing: border-box;
+}
+.submitButton {
+  margin-top: 10px;
+}
+.formStyling {
+  display: flex;
+  align-items: center;
+}
+.brandName {
+  font-size: 45px;
+  font-family: 'Rockwell';
+  color: #3DCFDB;
+}
+.logo {
+  height: 45px;
+}
+.jumbotron {
+  background-image: url('https://images.pexels.com/photos/66321/moon-jellyfish-aurelia-aurita-schirmqualle-66321.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

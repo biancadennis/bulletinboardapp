@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    if wish
+        h1 #{wish.title}
+        p= wish.body
+    else
+        h2 That's not a wish
+        p But you can make one here 
